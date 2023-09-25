@@ -2,7 +2,8 @@
   "name": "app",
   "private": "true",
   "scripts": {
-    "build": "webpack --config webpack.config.js"
+    "build": "webpack --config webpack.config.js",
+    "watch": "webpack --watch --config webpack.config.js"
   },
   "devDependencies": {
     "stylelint": "^13.13.1",
