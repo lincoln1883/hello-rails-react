@@ -1,11 +1,13 @@
 import React from 'react';
+import Greeting from './Greeting';
 
 function App() {
-    return (
-        <main>
-          <h1>Rails Playground</h1>
-        <div className="container"></div>
-    </main>);
+  return (
+  <div>
+    <h1>React on Rails</h1>
+    <Greeting />
+  </div>
+  );
 }
 
 export default App;
