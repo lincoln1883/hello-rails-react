@@ -45,10 +45,11 @@ This App is designed to build familiarity with the Ruby on Rails Full-stack fram
     <li><a href="https://rubyonrails.org/">Ruby</a></li>
   </ul>
 </details>
+
 <details>
 <summary>React</summary>
   <ul>
-    <li><a href="https://www.react.org">React</a></li>
+    <li><a href="https://www.react.org/">React</a></li>
   </ul>
 </details>
 
@@ -92,7 +93,7 @@ Install this project with:
 ```sh
   yarn install
 ```
-```
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
