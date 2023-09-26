@@ -1,7 +1,6 @@
 class MessageController < ApplicationController
   def index
-    # controller index action
-    @messages = Message.all
-    @message = @messages.sample
+    message = Message.order("RANDOM()").first
+    render json: message
   end
 end

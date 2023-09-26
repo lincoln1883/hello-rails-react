@@ -1,3 +1,3 @@
 class Message < ApplicationRecord
-  validates :greeting, presence: true
+  scope :random, -> { order("RANDOM()").first }
 end
