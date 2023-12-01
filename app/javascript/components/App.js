@@ -4,7 +4,7 @@ import Greeting from './Greeting';
 function App() {
   return (
   <div>
-    <h1>React on Rails</h1>
+    <h1>React on Rails, You know!</h1>
     <Greeting />
   </div>
   );
